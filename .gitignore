@@ -17,5 +17,5 @@
 
 node_modules/
 
-styles.scss
-styles.css.map
+**/.css.map
+**/.scss

@@ -17,5 +17,5 @@
 
 node_modules/
 
-**.css.map**
-**.scss**
+**.css.map
+**.scss

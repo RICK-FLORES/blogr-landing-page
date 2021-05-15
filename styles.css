@@ -1,1 +1,217 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Overpass, sans-serif;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.img-container {
+  margin: 0 auto;
+}
+
+.header {
+  background: url(./images/bg-pattern-intro.svg), -webkit-gradient(linear, left top, right bottom, from(#ff8f70), to(#ff3d54));
+  background: url(./images/bg-pattern-intro.svg), linear-gradient(to bottom right, #ff8f70, #ff3d54);
+  background-position: 34% 34%;
+  background-size: 350%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 100px;
+  margin-bottom: 5em;
+}
+
+.header-nav-container {
+  margin: 0 2em 5em 2em;
+  padding: 3em 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-container {
+  width: 30%;
+}
+
+.mobile-menu-btn {
+  width: 11%;
+}
+
+.nav {
+  display: none;
+}
+
+.cta {
+  color: white;
+  text-align: center;
+  padding: 0 2em;
+}
+
+.cta h1 {
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-bottom: .5em;
+  overflow-wrap: break-word;
+}
+
+.cta p {
+  margin-bottom: 4em;
+  font-size: 1.1rem;
+}
+
+.cta-btns {
+  font-family: Ubuntu, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 7.5em;
+}
+
+.cta-btns a {
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 1em;
+}
+
+.start-btn {
+  background-color: white;
+  color: #ff525d;
+  margin-right: 2em;
+}
+
+.learn-btn {
+  color: white;
+  border: 2px solid white;
+}
+
+.section-header,
+.section-sub-header,
+.section-text {
+  padding: 0 2em;
+  text-align: center;
+}
+
+.section-header {
+  font-weight: 600;
+  font-size: 1.596rem;
+}
+
+.section-sub-header {
+  font-size: 1.596rem;
+  margin-bottom: 1em;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.section-text-1 {
+  margin-bottom: 3em;
+}
+
+.section-text-2 {
+  margin-bottom: 5em;
+}
+
+.section-a {
+  padding-bottom: 10em;
+}
+
+.section-a .section-header {
+  margin-bottom: 3em;
+}
+
+.section-a .img-container {
+  margin-bottom: 3em;
+}
+
+.section-b {
+  color: white;
+  padding: 5em 0;
+  margin-bottom: 3em;
+  position: relative;
+  background: url(./images/bg-pattern-circles.svg), -webkit-gradient(linear, left top, right bottom, from(#2c2d3f), to(#3f4164));
+  background: url(./images/bg-pattern-circles.svg), linear-gradient(to bottom right, #2c2d3f, #3f4164);
+  background-position: 50% -500%;
+  background-size: 163%;
+  background-repeat: no-repeat;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.section-b .section-header {
+  margin-top: 7em;
+  margin-bottom: 1em;
+}
+
+.section-b .img-container {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: -175px;
+}
+
+.section-c .img-container {
+  margin-bottom: 3em;
+}
+
+.footer {
+  background-color: #25252d;
+  border-top-right-radius: 100px;
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+}
+
+.footer .logo-container {
+  margin: 0 auto;
+  padding: 3.5em 0;
+}
+
+.footer-nav-category-container {
+  margin-bottom: 3em;
+}
+
+.last {
+  padding-bottom: 3em;
+}
+
+.footer-nav-category,
+.footer-nav-link {
+  text-decoration: none;
+  color: #c8c8cb;
+}
+
+.footer-nav-category {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 2.3em;
+}
+
+.footer-nav-list {
+  list-style: none;
+}
+
+.footer-nav-item {
+  margin-bottom: 1em;
+}
+
+.footer-nav-link {
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=styles.css.map */
